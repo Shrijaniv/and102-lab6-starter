@@ -59,8 +59,8 @@ class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
 
         // Using the client, perform the HTTP request
         client[
-                "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json",
-                params,
+                "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=ucZzetACVFhqAPq5NzBlA3kMpXEqRG0t",
+                //params,
                 object : JsonHttpResponseHandler()
                 {
                     /*
